@@ -4,8 +4,8 @@
 
 $ git rm -r --cached .idea(해당 폴더 또는 파일 이름)
 
-rm 'angularjs/component/.idea/.name'
-rm 'angularjs/component/.idea/component.iml'
+rm 'angularjs/component/.idea/.name'  
+rm 'angularjs/component/.idea/component.iml'  
 ..... 등 내용 여러줄 출력 / 읽어오는 명령어
 
 $ git commit -m "remove webstorm .idea(해당 폴더 또는 파일 이름) directory"
